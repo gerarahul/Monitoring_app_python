@@ -42,11 +42,11 @@ pipeline {
     stage('Clone/Pull k8s manifests Repo') {
       steps {
         script {
-          if (fileExists('Monitoring-app')) {
+          if (fileExists('gitops-argocd')) {
 
             echo 'Cloned repo already exists - Pulling latest changes'
 
-            dir("Monitoring-app") {
+            dir("gitops-argocd") {
               sh 'git pull'
             }
 
