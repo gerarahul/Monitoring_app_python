@@ -1,0 +1,50 @@
+# Ignore common Python files and directories
+*.pyc
+*.pyo
+__pycache__
+*.pyd
+*.pyo
+*.pyc
+*.pyo
+
+# Ignore common Python development and testing files
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+docs/_build/
+tests/
+.coverage
+.tox
+
+# Ignore popular Python package managers
+pipenv/
+.pipenv/
+pipfile.lock
+poetry.lock
+.venv/
+
+# Ignore system and environment-specific files
+*.swp
+.DS_Store
+.env
+.env.local
+.env.*.local
+.env.override
+*.ini
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore version control files
+.git
+.gitignore
+.gitattributes
+.gitmodules
+
+# Ignore project-specific files and directories
+README.md
+LICENSE
